@@ -8,11 +8,12 @@ const sqlite3 = require('sqlite3').verbose();
 
 const app = express();
 
-const account = 'AC80ca523bdc4ab6b46ac33a2caca7c906';
-const authToken = 'd48aaf315e018b2ec90aebfc85606776';
-const client = require('twilio')(account, authToken);
+const account = 'AC80ac235bcd4ab6b46ac33a2caca7c906'; // Your account
+const authToken = 'AC80ac235bcd4ab6b46ac33a2caca7c906'; // Your auth-token
+const client = require('twilio')(account, authToken); 
 
-const stripe_key = 'sk_test_q22YR9W64gq7gdu3yE4Cf8j300nfIkwxvi';
+// replace your stripe key 
+const stripe_key = 'sk_test_AC80ac235bcd4ab6b46ac33a2caca7c906';
 
 
 // Server Side -- Stripe API 
