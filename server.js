@@ -1,4 +1,4 @@
-// StAuth10065: I Raj Patel, 000744572 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
+// StAuth10065: I Raj Patel, certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
 // Payment Reference: https://github.com/code-nebula/stripe-recurring-subscriptions
 
 const express = require('express');
